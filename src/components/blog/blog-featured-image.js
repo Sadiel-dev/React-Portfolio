@@ -1,0 +1,17 @@
+import React from "react";
+import { runInContext } from "vm";
+import { defaultCipherList } from "constants";
+
+const BlogFeaturedImage = props => {
+    if (!props.img) {
+        return null;
+    }
+
+    return (
+        <div className="featured-image-wrapper">
+        <img src={props.img} />
+        </div>
+    );
+};
+
+export default BlogFeaturedImage;
