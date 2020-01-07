@@ -1,3 +1,6 @@
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+
+
 import { 
     faTrash, 
     faSignOutAlt,
@@ -7,9 +10,16 @@ import {
     faPhoneVolume,
     faEnvelopeOpenText,
     faMapMarkerAlt,
-    faLock
+    faLock,
+    faCaretDown
+
+    
+    
+    
+    
 } from "@fortawesome/free-solid-svg-icons";
 import {library} from "@fortawesome/fontawesome-svg-core";
+
 
 
 const Icons = () => {
@@ -21,8 +31,13 @@ return library.add(faTrash,
     faPhoneVolume,
     faEnvelopeOpenText,
     faMapMarkerAlt,
-    faLock
+    faLock,
+    faCaretDown
+    
+      
     );
 };
+
+
 
 export default Icons;

@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profilePicture from "../../../static/assets/images/contact/login.jpg"
 
+
 export default function() {
     return(
         <div className="content-page-wrapper">
@@ -41,7 +42,8 @@ export default function() {
                     <div className="text">Miami, FL</div>
                 </div>
             </div>
+
         </div>
-        </div>
+         </div>
     )
 }

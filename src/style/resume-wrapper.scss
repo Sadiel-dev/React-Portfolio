@@ -1,0 +1,60 @@
+html {
+
+.resume-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+
+    .links {
+        display: flex;
+        margin-top:50px;
+        a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            margin-right: 50px;
+            font-family: 'Roboto', sans-serif;
+
+            &:hover {
+                color:white;
+                transition: 0.5s ease-in-out;
+                box-shadow: black;
+                
+            }
+        }
+    }
+    .introduction {
+        border-bottom: solid black;
+
+        .picture-name {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+    }
+    .skills {
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: solid black;
+
+        h1{
+            margin-right: 300px;
+        }
+
+        ul{
+            
+            
+        }
+    }
+
+    .Experience {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;border-bottom: solid black;
+    }
+    
+
+}
+}
