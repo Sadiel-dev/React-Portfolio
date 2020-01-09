@@ -22,8 +22,12 @@ export default function() {
                  If given the opportunity to start working full time on code i feel like i can accomplish many great things under the right guidance and with the right team. I am capable of learning any language necessary and become
                  successful with it. More than grateful to have learned the ability of creating applications, but i know is just the beginning of an endless journey.
                 </p>
-        </div>
 
+                <div className="Links">
+                   <div className="github"><a href="#">Github</a></div> 
+                    <div className="linkedin"><a href="#">LinkedIn</a></div>
+                </div>
+        </div>
 
     </div>
     )
