@@ -13,7 +13,7 @@ import PortfolioDetail from "./portfolio/portfolio-details";
 import Auth from "./pages/auth";
 import NoMatch from "./pages/no-match";
 import Icons from "../helpers/icons";
-import MyResume from "./pages/resume";
+
 
 
 export default class App extends Component {
@@ -114,7 +114,6 @@ export default class App extends Component {
 
               <Route path="/about-me" component={About} />
               <Route path="/contact" component={Contact} />
-              <Route path ="/resume" component={MyResume}/>
               <Route path="/blog"
               render={props => (
                 <Blog {...props} loggedInStatus={this.state.loggedInStatus} />
