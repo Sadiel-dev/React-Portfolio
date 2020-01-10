@@ -22,8 +22,8 @@ export default function() {
                 </p>
 
                 <div className="Links">
-                   <div className="github"><a href="#">Github</a></div> 
-                    <div className="linkedin"><a href="#">LinkedIn</a></div>
+                   <div className="github"><a href="https://github.com/"target="_blank">Github</a></div> 
+                    <div className="linkedin"><a href="https://www.linkedin.com/in/sadiel-almanza-205074197/"target="_blank">LinkedIn</a></div>
                 </div>
         </div>
 
